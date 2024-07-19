@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="path/to/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Reema</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" >About</a>
+            <a href="#skills" >Skills</a>
+            <a href="#contact">Contact</a>
+            <button id="mode-toggle">Toggle Mode</button>
+            
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            </div>
+          <div class="col-md-4">
+            </div>
+          <div class="col-md-4">
+            </div>
+        </div>
+      </div>
+      
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hey! I'm Reema Alkhozaim</h1>
+            <h2>Web designer and developer</h2>
+            <p> I'm web developer in training with a passion for creating user-friendly and engagin websites.
+                </p>
+        </div>
+        <div class="home-sci">
+            <a href="https://t.me/xrvre"><i class='bx bxl-telegram'></i></a>
+            <a href="https://www.linkedin.com/in/reema-alkhuzayyim-bb1562294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://wa.me/966551569572"><i class='bx bxl-whatsapp' ></i></a>
+        </div>
+    </section>
+
+    <section class="About" id="about">
+
+        <h1>About me</h1>
+        <p>I'm Reema and am student at Qassim universty, specializing in information technology.
+            proactive and creative frontend developer. I design and code beautifully simple things,
+            websites , mobile applications and i love what i do.
+            </p>
+
+    </section>
+
+
+    <section class="skills" id="skills">
+        <h1>My Skills</h1>
+
+            <div class="skills-row">
+                <div class="skills-column">
+                    <h3 class="title">Coding skills</h3>
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <div class="progress">
+                                <h3>HTML <span>95%</span></h3>
+                                
+                            </div>
+
+                            <div class="progress">
+                                <h3>CSS <span>80%</span></h3>
+                                
+                            </div>
+
+                            <div class="progress">
+                                <h3>JavaScript<span>60%</span></h3>
+                                
+                            </div>
+
+                            <div class="progress">
+                                <h3>Python<span>82%</span></h3>
+                                
+                            </div>
+
+                            <div class="progress">
+                                <h3>C++<span>90%</span></h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="skills-column">
+                    <h3 class="title">professional skills</h3>
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <div class="progress">
+                                <h3>WebDesign<span>90%</span></h3>
+                                
+                            </div>
+
+                            <div class="progress">
+                                <h3>WebDevelop<span>80%</span></h3>
+                                
+                            </div>
+
+                            <div class="progress">
+                                <h3>JavaScript<span>60%</span></h3>
+                                
+                            </div>
+
+                            <div class="progress">
+                                <h3>GraphicDesign<span>70%</span></h3>
+                                
+                            </div>
+
+                            <div class="progress">
+                                <h3>SEOMarkiting<span>69%</span></h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            
+    </section>
+
+
+        <script>
+        const modeToggle = document.getElementById('mode-toggle');
+            const body = document.body;
+            
+            modeToggle.addEventListener('click', () => {
+              body.classList.toggle('dark-mode');
+            });
+            </script>
+
+
+
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+            <section id="contact">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <div class="card">
+                      <div class="card-body">
+                        <h3 class="card-title text-center mb-4">تواصل معي</h3>
+                        <form>
+                          <div class="form-group">
+                            <label for="name">الاسم</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                          </div>
+                          <div class="form-group">
+                            <label for="email">الايميل</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                          </div>
+                          <div class="form-group">
+                            <label for="message">ملاحظاتك</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+    
+</body>
+</html>
