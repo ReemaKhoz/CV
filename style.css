@@ -22,7 +22,9 @@ body {
     background-color: #222; 
     color: #a5a3a3; 
   }
-
+#mode-toggle{
+    background-color:rgb(211, 177, 211);
+}
 .header{
     position: fixed;
     top: 0;
