@@ -16,12 +16,13 @@
         <a href="#" class="logo">Reema</a>
 
         <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about" >About</a>
-            <a href="#skills" >Skills</a>
-            <a href="#contact">Contact</a>
-            <button id="mode-toggle">Toggle Mode</button>
+          <button id="mode-toggle">🌙 / ☀ </button>
+            <a href="#home" class="active">الرئيسية</a>
+            <a href="#about" >عني</a>
+            <a href="#skills" >المهارات</a>
+            <a href="#contact">للتواصل</a>
             
+
         </nav>
     </header>
 
@@ -137,14 +138,13 @@
     </section>
 
 
-        <script>
-        const modeToggle = document.getElementById('mode-toggle');
-            const body = document.body;
-            
-            modeToggle.addEventListener('click', () => {
-              body.classList.toggle('dark-mode');
-            });
-            </script>
+    <script>
+    const modeToggle = document.getElementById('mode-toggle');
+      const body = document.body;
+      
+      modeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+      });</script>
 
 
 
@@ -160,18 +160,18 @@
                   <div class="col-md-6">
                     <div class="card">
                       <div class="card-body">
-                        <h3 class="card-title text-center mb-4">تواصل معي</h3>
+                        <h3 class="card-title text-center mb-4"> contact me</h3>
                         <form>
-                          <div class="form-group">
-                            <label for="name">الاسم</label>
+                          <div class="form-group" >
+                            <label for="name">name</label>
                             <input type="text" class="form-control" id="name" placeholder="Enter your name">
                           </div>
                           <div class="form-group">
-                            <label for="email">الايميل</label>
+                            <label for="email" >email</label>
                             <input type="email" class="form-control" id="email" placeholder="Enter your email">
                           </div>
                           <div class="form-group">
-                            <label for="message">ملاحظاتك</label>
+                            <label for="message">message</label>
                             <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
                           </div>
                           <button type="submit" class="btn btn-primary btn-block">Submit</button>

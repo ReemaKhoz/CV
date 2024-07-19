@@ -13,13 +13,14 @@
 }
 
 body {
-    background-color: #fff; /* Light mode background */
-    color: #333; /* Light mode text color */
+    background-color: #fff; 
+    color: #333; 
+    transition: background-color 0.3s;
   }
   
 .dark-mode {
-    background-color: #222; /* Dark mode background */
-    color: #a5a3a3; /* Dark mode text color */
+    background-color: #222; 
+    color: #a5a3a3; 
   }
 
 .header{
@@ -152,7 +153,6 @@ body {
 
 .skills{
     padding: 200px;
-
     text-align: center;
 }
 
@@ -204,4 +204,3 @@ body {
     padding: 5px;
     
 }
-
